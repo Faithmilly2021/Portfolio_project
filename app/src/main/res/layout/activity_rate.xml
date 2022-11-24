@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rate">
+
+    <TextView
+        android:id="@+id/thank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="30dp"
+        android:paddingTop="200dp"
+        android:text="Thank you for your business!"
+        android:textColor="@color/black"
+        android:textSize="25dp"> </>
+
+    <TextView
+        android:id="@+id/ride"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="50dp"
+        android:paddingTop="250dp"
+        android:text="How was the ride?"
+        android:textColor="@color/black"
+        android:textSize="25dp"> </>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_imag"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/image"
+        android:paddingTop="20dp"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+</RelativeLayout>

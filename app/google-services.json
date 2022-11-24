@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12948482623",
+    "project_id": "trakee-c0ede",
+    "storage_bucket": "trakee-c0ede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12948482623:android:3526f94b17605431a8e68a",
+        "android_client_info": {
+          "package_name": "com.faith.trakee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12948482623-08tr8r2gnm6ivt2pi1ms88gor744eql3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKUc9kT47WDeDQ4qxy5eWHNE9oYUGcj1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12948482623-08tr8r2gnm6ivt2pi1ms88gor744eql3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

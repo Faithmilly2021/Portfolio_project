@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA8C2C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texti1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="30dp"
+        android:paddingTop="200dp"
+        android:text="Already have an account?"
+        android:textColor="@color/black"
+        android:textSize="25dp"></TextView>
+
+
+    <EditText
+        android:id="@+id/enter_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:text="Yes"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_radio_button"
+        android:drawablepaddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerInParent="true"> </EditText>
+
+    <EditText
+        android:id="@+id/enter_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/text"
+        android:drawableLeft="@drawable/ic_baseline_radio_button"
+        android:drawablepaddingRight="50dp"
+        android:text="No"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/enter_yes">
+
+    </EditText>
+</RelativeLayout>
+
+
+

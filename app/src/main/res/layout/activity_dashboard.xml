@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="30dp"
+        android:paddingTop="200dp"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:textSize="35dp"> </>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="30dp"
+        android:paddingTop="250dp"
+        android:text="Aiden Parker"
+        android:textColor="@color/black"
+        android:textSize="35dp"> </>
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="30dp"
+        android:paddingTop="300dp"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:textSize="30dp"> </>
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="30dp"
+        android:paddingTop="350dp"
+        android:text="Account"
+        android:textColor="@color/black"
+        android:textSize="30dp"> </>
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="30dp"
+        android:paddingTop="400dp"
+        android:text="History"
+        android:textColor="@color/black"
+        android:textSize="30dp"> </>
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="30dp"
+        android:paddingTop="450dp"
+        android:text="Settings"
+        android:textColor="@color/black"
+        android:textSize="30dp"> </>
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="30dp"
+        android:paddingTop="500dp"
+        android:text="Notifications"
+        android:textColor="@color/black"
+        android:textSize="30dp"> </>
+
+
+</RelativeLayout>
